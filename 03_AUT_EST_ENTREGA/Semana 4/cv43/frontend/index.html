@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Currículo: Antonio Nassar</title>
+    <!--css e bootstrap para responsividade-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="/style.css" type="text/css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <!-- <script> src="/script.js"</script> -->
+</head>
+<body>
+    <div class="area"> <!--área total-->
+    <div class="header">
+        <!--foto de perfil-->
+        <img src="images/pic.jpg" alt="foto de perfil">
+        <div class="header-text">
+            <h1>ANTONIO NASSAR</h1>
+            <p>Estudante de Engenharia de Software</p>
+        </div>
+    </div>
+<!--conteúdos e habilidades-->
+    <div class="content">
+        <div class="left-area">
+            <div class="contact">
+                <h4>Contato</h4>
+                <h5>Email</h5>
+                <p>antonio.nassar@sou.inteli.edu.br</p>
+                <h5>LinkedIn</h5>
+                <a href="https://www.linkedin.com/in/antonionassar/">linkedin.com/in/antonionassar/</a>
+            </div>
+            <div class="skills">
+                <h1>COMPETÊNCIAS</h1>  
+                <div class="bars">
+                   <div class="bar">
+                       <p>JavaScript</p>
+                       <span></span>
+                    </div>
+                   <div class="bar">
+                        <p>SQLite</p>
+                        <span></span>
+                    </div>
+                    <div class="bar">
+                        <p>HTML/CSS</p>
+                        <span></span>
+                    </div>
+                    <div class="bar">
+                        <p>FinalCutX</p>
+                        <span></span>
+                    </div>
+                    <div class="bar">
+                        <p>Inglês</p>
+                        <span></span>
+                    </div>
+                </div>
+            </div>
+            <div class="follow">
+                <h1>Redes Sociais</h1>
+                <h4>Instagram</h4>
+                <a href="https://www.instagram.com/antonionassarr/">instagram.com/antonionassarr/</a>
+                <h1>YouTube</h1>
+                <a href="https://www.youtube.com/channel/UCNbJOTiypzEjtFMndpFaqpg/featured">youtube.com/tnmedia</a>
+            </div>
+    </div>
+    <!--Outros conteúdos e histórico-->
+    <div class="right-area">
+        <div class="about">
+            <h1>Sobre:</h1>
+            <p>Meu nome Antonio Nassar, tenho 18 anos e sou estudante de Engenharia de Software no Inteli - Instituto de Tecnologia e Liderança. Tenho muito interesse por tecnologia e programação, além de áudio e áudio-visual. Visto isso, tenho interesse em futuramente trabalhar em segmentos de criação de conteúdo utilizando ferramentas de desenvolvimento de software, visto a enorme evolução de hardware e software em grandes produções.</p>
+        </div>
+        <div class="work">
+            <h1>Experiência:</h1>
+            <div class="work-group">
+                <h3>Estudante de Engenharia de Software</h3>
+                <h4>Inteli - Instituto de Tecnologia e Liderança</h4>
+                <span>2022/2025</span>
+                <p>Trabalhos realizados: Back2Life (FMUSP), EduX (Falconi).</p>
+            </div>
+            <div class="work-group">
+                <h3>Diploma (Ensino Fundamental/Médio)</h3>
+                <h4>Colégio Palmares</h4>
+                <span>2007/2021</span>
+                <p>Atividades extracurriculares: Espanhol (2018/2019), Contextualização de Problemas Matemáticos (2020/2021) e DAS - Departamento de Ação Social.</p>
+            </div>
+            <div class="work-group">
+                <h3>Filmmaker Freelancer - Piloto de Drone</h3>
+                <h4>TN MEDIA</h4>
+                <span>2017/Atualmente</span>
+                <p>TN MEDIA é um conceito de produções audiovisuais especializada em vídeos de viagens cinemaográficos e produções corporativas para pequenas/médias/grandes empresas que buscam qualidade profissional de imagem e edição de vídeo.</p>
+            </div>
+            <div class="work-group">
+                <h3>Programa de Intercâmbio</h3>
+                <h4>King's College London</h4>
+                <span>2022(Julho)</span>
+                <p>Programa de intercâmbio em Londres no King's College como preparatório para o exame de proficiência IELTS.</p>
+            </div><div class="work-group">
+                <h3>Curso de Inglês</h3>
+                <h4>Cultura Inglesa</h4>
+                <span>2013/2019</span>
+                <p>Curso completo, além da participação em duas temporadas do "Cultura's got Talent".</p>
+            </div>
+    </div>
+</div>
+<!--cria um botão para imprimir o curriculo-->
+<button>Imprimir Currículo</button>
+<!--imprime o curriculo, caso fique desconfigurado mudar preferencias de impressão/script com função js-->
+<script>
+    var btn = document.querySelector("button");
+    btn.onclick = () =>{
+        window.print();
+    }
+</script>
+<script>alert("Bem vindo(a) ao meu currículo!")</script> <!--alerta ao abrir o site-->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
